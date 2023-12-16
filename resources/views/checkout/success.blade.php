@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-12 col-12">
-                    <img src="{{asset('images/hiasan.png)}}" height="200" class="mb-5" alt=" ">
+                    <img src="{{asset('images/hiasan.png')}}" height="290" class="mb-5" alt=" ">
                 </div>
                 <div class=" col-lg-12 col-12 header-wrap mt-4">
                     <p class="story">

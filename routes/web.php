@@ -26,7 +26,7 @@ Route::get('dashboard', function () {
 });
 
 Route::get('checkout/success', function () {
-    return view('checkout/sucess');
+    return view('checkout/success');
 });
 
 Route::get('checkout/{slug}', function () {

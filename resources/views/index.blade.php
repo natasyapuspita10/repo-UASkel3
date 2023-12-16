@@ -2,7 +2,6 @@
 @section('content')
     <section>
         <div>
-
         </div>
     </section>
     <section class="background">
