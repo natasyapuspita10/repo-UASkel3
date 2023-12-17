@@ -18,7 +18,7 @@
             </p>
             <p>
                 <!-- login google oauth -->
-                <a class="btn btn-border btn-google-login" href="#">
+                <a class="btn btn-border btn-google-login" href="{{route('user.login.google')}}">
                     <img src="{{asset('images/google.svg')}}" class="icon" alt=""> Sign In with Google
                 </a>
             </p>

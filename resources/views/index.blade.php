@@ -92,7 +92,7 @@
                         </h5>
                     <div class="detail-text">
                         <!-- link to checkout -->
-                        <a href="./checkout.html">  selengkapnya
+                        <a href="{{url('checkout/gila-belajar')}}">  selengkapnya
                            <img src="{{asset('images/arrow.png')}}" width="18px"> </a>
                         <p class="tulisan">Rp35.000</p>
                     </div>
@@ -107,7 +107,7 @@
                             Museum Macan
                         </h5>
                     <div class="detail-text">
-                        <a href="#">  selengkapnya
+                        <a href="{{url('checkout/museum-macan')}}">  selengkapnya
                            <img src="{{asset('images/arrow.png')}}" width="18px"> </a>
                         <p class="tulisan">Rp100.000</p>
                     </div>
@@ -122,7 +122,7 @@
                             Seaworld
                         </h5>
                     <div class="detail-text">
-                        <a href="#">  selengkapnya
+                        <a href="{{url('checkout/seaworld')}}">  selengkapnya
                            <img src="{{asset('images/arrow.png')}}" width="18px"> </a>
                         <p class="tulisan">Rp9S.000</p>
                     </div>
@@ -137,7 +137,7 @@
                             Taman Mini Indonesia Indah
                         </h5>
                     <div class="detail-text">
-                        <a href="#">  selengkapnya
+                        <a href="{{url('checkout/taman-mini-indonesia-indah')}}">  selengkapnya
                            <img src="{{asset('images/arrow.png')}}" width="18px"> </a>
                         <p class="tulisan">Rp10.000</p>
                     </div>

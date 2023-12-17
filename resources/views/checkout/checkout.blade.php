@@ -18,10 +18,10 @@
                         <div class="col-lg-5 col-12">
                             <div class="item-bootcamp">
                                 <!-- gambar -->
-                                <img src="{{asset('images/mbloc1.jpg)}} height="150" class="cover">
+                                <img src="{{asset('images/mbloc1.jpg')}}" height="150" class="cover">
                                 <h1 class="package">
                                     <!-- nanti diubah pake codingan -->
-                                    {{$place->title}} 
+                                    {{$wisata->title}} 
                                 </h1>
                                 <p class="description">
                                     Detail Tempat In Here
@@ -63,7 +63,7 @@
                                 </div>
                                 <button type="submit" class=" btn btn-primary pay">Pay Now</button>
                                 <p class="text-center subheader mt-4">
-                                    <img src="/assets/images/ic_secure.svg" alt=""> Your payment is secure and encrypted.
+                                     Your payment is secure and encrypted.
                                 </p>
                             </form>
                         </div>

@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,20 +17,33 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('welcome');
 
+Route::get('sign-in-google', [UserController::class, 'google'])->name('user.login.google');
+Route::get('auth/google/callback', [UserController::class, 'handleProviderCallback'])->name('user.google.callback');
 Route::get('login', function () {
     return view('auth.user.login');
 });
-
 Route::get('dashboard', function () {
     return view('user.dashboard');
-});
+})->name('dashboard');
 
 Route::get('checkout/success', function () {
-    return view('checkout/success');
+    return view('checkout.success');
 });
+// Route::get('checkout/{wisata}', function () {
+//     return view('checkout.create');
+// });
 
-Route::get('checkout/{slug}', function () {
-    return view('checkout.create');
-});
+Route::get('checkout/{wisata}', function(){
+    return view('checkout.checkout');
+})->name('checkout.checkout');
+// ->middleware(['auth', 'verified'])->name('dashboard');
+
+// Route::middleware('auth')->group(function () {
+//     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+//     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+//     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+// });
+
+require __DIR__.'/auth.php';
