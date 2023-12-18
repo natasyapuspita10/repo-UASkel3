@@ -28,7 +28,7 @@
                             <image src="https://ui-avatars.com/api?name=Admin" class="user-photo" alt="admin's avatar">
                         @endif
                     </a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="right:0, left:auto">
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="right:0; left:auto">
                             <li>
                                 <a href="#" class="dropdown-item">My Dashboard</a>
                             </li>
@@ -42,13 +42,14 @@
                 </div>
             @else
                 <div class="d-flex">
-                    <a href="/login" class="btn btn-master btn-secondary me-3 masuk">
+                    <a href="{{url('/login')}}" class="btn btn-master btn-secondary me-3 masuk">
                         Sign In
                     </a>
                     <a href="#" class="btn btn-master btn-primary daftar">
                         Sign Up
                     </a>
                 </div>
+            @endif
             </div>
         </div>
     </nav>

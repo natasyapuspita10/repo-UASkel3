@@ -23,7 +23,7 @@
                 </a>
             </p>
             <!-- buttin back to home -->
-            <a class="balik" href="index.html">
+            <a class="balik" href="{{url('index.html')}}">
                 <p>
                     Back To Main Page
                 </p>

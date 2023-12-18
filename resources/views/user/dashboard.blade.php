@@ -13,18 +13,18 @@
                 </div>
             </div>
             <div class="row my-5">
-                @include('_components\alert')
+                @include('_components/alert')
                 <table class="table">
                     <tbody>
                         @forelse($checkouts as $checkout)
                         <tr class="align-middle">
                             <td width="18%">
-                                <img src="{{secure_asset('images/item_bootcamp.png')}}" height="120" alt="">
+                                <img src="{{asset('images/item_bootcamp.png')}}" height="120" alt="">
                             </td>
                             <td>
                                 <!-- judul tiket -->
                                 <p class="mb-2">
-                                    <strong>{{$checkout->camp->title}}</strong>
+                                    <strong>{{$checkout->wisata->title}}</strong>
                                 </p>
                                 <!-- tanggal tiket -->
                                 <p>
@@ -33,7 +33,7 @@
                             </td>
                             <!-- harga -->
                             <td>
-                               <strong>Rp. {{$checkout->camp->price}}</strong>
+                               <strong>Rp. {{$checkout->wisata->price}}</strong>
                             </td>
                             <!-- status pembayaran -->
                             <td>
@@ -49,7 +49,7 @@
                             </td>
                             <td>
                                 <!-- no WA -->
-                                <a href="https://wa.me/?text=Hai, saya ingin bertanya tentang kelas {{$checkout->camp->title}}" class="btn btn-secondary">
+                                <a href="https://wa.me/?text=Hai, saya ingin bertanya tentang kelas {{$checkout->wisata->title}}" class="btn btn-secondary">
                                     Contact Support
                                 </a>
                             </td>
