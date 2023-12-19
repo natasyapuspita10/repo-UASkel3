@@ -3,12 +3,12 @@
     <section class="login-user">
         <div class="left">
              <!-- Gambar Di kiri -->
-            <img src="{{asset('images/hiasan.png')}}" alt="">
+            <img src="{{secure_asset('images/hiasan.png')}}" alt="">
         </div>
 
         <div class="right">
             <!-- logo -->
-            <img src="{{asset('images/merachy.png')}}" class="logo" alt="">
+            <img src="{{secure_asset('images/merachy.png')}}" class="logo" alt="">
             <h1 class="header-third">
                 Find The Best Destination Today!
             </h1>
@@ -19,11 +19,11 @@
             <p>
                 <!-- login google oauth -->
                 <a class="btn btn-border btn-google-login" href="{{route('user.login.google')}}">
-                    <img src="{{asset('images/google.svg')}}" class="icon" alt=""> Sign In with Google
+                    <img src="{{secure_asset('images/google.svg')}}" class="icon" alt=""> Sign In with Google
                 </a>
             </p>
             <!-- buttin back to home -->
-            <a class="balik" href="{{url('index.html')}}">
+            <a class="balik" href="{{url('user.dashboard')}}">
                 <p>
                     Back To Main Page
                 </p>

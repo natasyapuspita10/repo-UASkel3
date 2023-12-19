@@ -1,10 +1,5 @@
 @extends('_layouts.app')
 @section('content')
-    <section>
-        <div>
-            
-        </div>
-    </section>
     <section class="background">
         <div class="head">
             <div class="subhead">
@@ -17,7 +12,7 @@
                         <button type="button">Lihat Yuk!</button>
                     </div>
                     <div class="pict1">
-                        <img src="{{asset('images/museum.jpg')}}" class="pict1">
+                        <img src="{{secure_asset('images/museum.jpg')}}" class="pict1">
                     </div>
                 </div>
             </div>      
@@ -29,7 +24,7 @@
             <div class="subhead">
                 <div class="konten">
                     <div class="pict1">
-                        <img src="{{asset('images/polaroid.png')}}" class="pict1">
+                        <img src="{{secure_asset('images/polaroid.png')}}" class="pict1">
                     </div>
                     <div class="title">
                         <h1>
@@ -64,14 +59,14 @@
         <div class="container">
             <div class="row align-items-start kategori">
                 <div class="col kat">
-                    <img src="{{asset('images/1.png')}}" class="pict2">
+                    <img src="{{secure_asset('images/1.png')}}" class="pict2">
                     
                 </div>
                 <div class="col kat">
-                    <img src="{{asset('images/2.png')}}" class="pict2">
+                    <img src="{{secure_asset('images/2.png')}}" class="pict2">
                 </div>
                 <div class="col kat">
-                    <img src="{{asset('images/3.png')}}" class="pict2">
+                    <img src="{{secure_asset('images/3.png')}}" class="pict2">
                 </div>
             </div>        
         </div>
@@ -85,7 +80,7 @@
             <div class="row align-items-start place">
                 <div class="card col">
                     <div class="place">
-                        <img src="{{asset('images/mbloc1.jpg')}}">
+                        <img src="{{secure_asset('images/mbloc1.jpg')}}">
                     </div>
                     <div class="detail">
                         <h5>
@@ -93,53 +88,53 @@
                         </h5>
                     <div class="detail-text">
                         <!-- link to checkout -->
-                        <a href="./checkout.html">  selengkapnya
-                           <img src="{{asset('images/arrow.png')}}" width="18px"> </a>
+                        <a href="{{url('checkout/museum-nasional-indonesia')}}">  selengkapnya
+                           <img src="{{secure_asset('images/arrow.png')}}" width="18px"> </a>
                         <p class="tulisan">Rp35.000</p>
                     </div>
                     </div>
                 </div>
                 <div class="card col">
                     <div class="place">
-                        <img src="{{asset('images/mbloc1.jpg')}}">
+                        <img src="{{secure_asset('images/mbloc1.jpg')}}">
                     </div>
                     <div class="detail">
                         <h5>
                             Museum Macan
                         </h5>
                     <div class="detail-text">
-                        <a href="#">  selengkapnya
-                           <img src="{{asset('images/arrow.png')}}" width="18px"> </a>
+                        <a href="{{url('checkout/museum-macan')}}">  selengkapnya
+                           <img src="{{secure_asset('images/arrow.png')}}" width="18px"> </a>
                         <p class="tulisan">Rp100.000</p>
                     </div>
                     </div>
                 </div>
                 <div class="card col">
                     <div class="place">
-                        <img src="{{asset('images/mbloc1.jpg')}}">
+                        <img src="{{secure_asset('images/mbloc1.jpg')}}">
                     </div>
                     <div class="detail">
                         <h5>
                             Seaworld
                         </h5>
                     <div class="detail-text">
-                        <a href="#">  selengkapnya
-                           <img src="{{asset('images/arrow.png')}}" width="18px"> </a>
+                        <a href="{{url('checkout/seaworld')}}">  selengkapnya
+                           <img src="{{secure_asset('images/arrow.png')}}" width="18px"> </a>
                         <p class="tulisan">Rp9S.000</p>
                     </div>
                     </div>
                 </div>
                 <div class="card col">
                     <div class="place">
-                        <img src="{{asset('images/mbloc1.jpg')}}">
+                        <img src="{{secure_asset('images/mbloc1.jpg')}}">
                     </div>
                     <div class="detail">
                         <h5>
                             Taman Mini Indonesia Indah
                         </h5>
                     <div class="detail-text">
-                        <a href="#">  selengkapnya
-                           <img src="{{asset('images/arrow.png')}}" width="18px"> </a>
+                        <a href="{{url('checkout/taman-mini-indonesia-indah')}}">  selengkapnya
+                           <img src="{{secure_asset('images/arrow.png')}}" width="18px"> </a>
                         <p class="tulisan">Rp10.000</p>
                     </div>
                     </div>

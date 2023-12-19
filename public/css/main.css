@@ -38,8 +38,10 @@ h1 {
 
 .navbar .d-flex a {
     font-size: 18px;
+    color: black;
     padding: 5px 15px;
     border-radius: 35px;
+    text-decoration: none;
 }
 
 .navbar .d-flex .masuk {
@@ -53,6 +55,14 @@ h1 {
     color: #FFFFFF;
     border: 1px solid #B16E65;
 }
+
+.navbar .user-logged .user-photo {
+    width: 56px;
+    height: 56px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
 
 /* dashboard */
 .story {

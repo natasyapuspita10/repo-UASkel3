@@ -8,7 +8,7 @@
                         My Places
                     </div>
                     <div class="card-body">
-                        @include('_components\alert')
+                        @include('components\alert')
                         <table class="table table-stripped">
                             <thead>
                                 <th>User</th>

@@ -24,6 +24,8 @@ class User extends Authenticatable
         'password',
         'avatar',
         'occupation',
+        'phone',
+        'address',
         'is_admin',
         'email_verified_at'
     ];
@@ -47,4 +49,11 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+    
+    public function checkouts()
+    {
+        return $this->hasMany(Checkout::class);
+    }
+
 }
+

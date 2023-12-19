@@ -4,17 +4,17 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-12 col-12">
-                    <img src="{{asset('images/hiasan.png')}}" height="290" class="mb-5" alt=" ">
+                    <img src="{{secure_asset('images/hiasan.png')}}" height="290" class="mb-5" alt=" ">
                 </div>
                 <div class=" col-lg-12 col-12 header-wrap mt-4">
                     <p class="story">
                         Ready? Set, Travel!
                     </p>
                     <h2 class="primary-header ">
-                        Checkout Success
+                        Go to dashboard for complete your order!
                     </h2>
                     <!-- ganti url aja -->
-                    <a href="#" class="btn btn-primary mt-3">
+                    <a href="{{route('dashboard')}}" class="btn btn-primary mt-3">
                         My Dashboard
                     </a>
                 </div>
