@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://eb7d-2407-0-3002-beaf-b45f-7ae5-8f89-3295.ngrok-free.app/auth/google/callback'),
+    'url' => env('APP_URL', 'https://008b-2407-0-3002-b086-5034-e746-7fa5-1702.ngrok-free.app'),
 
     'asset_url' => env('ASSET_URL'),
 
