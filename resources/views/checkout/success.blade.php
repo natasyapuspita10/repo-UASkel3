@@ -11,7 +11,7 @@
                         Ready? Set, Travel!
                     </p>
                     <h2 class="primary-header ">
-                        Go to dashboard for complete your order!
+                        Go to dashboard to complete your order!
                     </h2>
                     <!-- ganti url aja -->
                     <a href="{{route('dashboard')}}" class="btn btn-primary btn-primary:hover mt-3">

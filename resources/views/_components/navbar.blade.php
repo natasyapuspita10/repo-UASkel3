@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container">
-            <a class="navbar-brand d-inline-block align-text-top" href="#">
+            <a class="navbar-brand d-inline-block align-text-top" href="{{url('/')}}">
                 <img src="{{secure_asset('images/merachy.png')}}" width="35%" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
