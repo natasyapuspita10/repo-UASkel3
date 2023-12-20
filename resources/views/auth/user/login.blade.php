@@ -23,7 +23,7 @@
                 </a>
             </p>
             <!-- buttin back to home -->
-            <a class="balik" href="{{url('user.dashboard')}}">
+            <a class="balik" href="{{url('\')}}">
                 <p>
                     Back To Main Page
                 </p>
