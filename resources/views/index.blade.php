@@ -150,17 +150,17 @@
             </div>
             <div class="row align-items-start why">
                 <div class="col">
-                    <img src="./gambar/5.png" width="100px">
+                    <img src="{{secure_asset('images/5.png')}}" width="100px">
                     <h5>Explorasi Berbagai Tempat Dalam 1 Klik</h5>
                     <p>Tidak perlu binggung dalam mengexplorasi tempat baru. Kami menyediakan yang membantu kalian pergi-pergi.</p>
                 </div>
                 <div class="col">
-                    <img src="./gambar/6.png" width="100px">
+                    <img src="{{secure_asset('images/6.png')}}" width="100px">
                     <h5>Jangan Ketinggalan Trend</h5>
                     <p>Dont miss a step! Kita hadir memberikan rekomendasi tempat terhits untuk kamu yang FOMO!</p>
                 </div>
                 <div class="col">
-                    <img src="./gambar/7.png" width="100px">
+                    <img src="{{secure_asset('images/7.png')}}" width="100px">
                     <h5>Terpercaya</h5>
                     <p>Baca ulasan dan dapatkan layanan pelanggan terpercaya. Kami selalu hadir di setiap langkahmu.</p>
                 </div>
