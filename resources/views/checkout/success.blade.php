@@ -14,7 +14,7 @@
                         Go to dashboard for complete your order!
                     </h2>
                     <!-- ganti url aja -->
-                    <a href="{{route('dashboard')}}" class="btn btn-primary mt-3">
+                    <a href="{{route('dashboard')}}" class="btn btn-primary btn-primary:hover mt-3">
                         My Dashboard
                     </a>
                 </div>

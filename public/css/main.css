@@ -9,6 +9,10 @@ h1 {
     font-weight: 700px;
 }
 
+.warnaTulisan {
+    color: #844640;
+}
+
 .btn-primary {
     font-size: 18px;
     border-radius: 25px;
@@ -17,11 +21,38 @@ h1 {
     background-color: #CD8C82;
 }
 
+.btn-primary:hover {
+    Background-color: #9B5951;
+    Color: #FFFFFF;
+}
+
 .btn-secondary {
     font-size: 18px;
     border-radius: 25px;
     padding: 5px 15px;
     background-color: #844640;
+}
+
+.btn-secondary:hover {
+    Background-color: #9B5951;
+    Color: #FFFFFF;
+}
+
+.btn-yuhu {
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 5px 15px;
+    border: 1px solid #9B5951;
+    background-color: #CD8C82;
+    width: 320px;
+    height: 38px;
+    Color: #FFFFFF;
+    
+}
+
+.btn-yuhu:hover {
+    Background-color: #9B5951;
+    Color: #FFFFFF;
 }
 
 /* navbar */
@@ -327,3 +358,31 @@ button {
 .tulisan {
     padding-right: 6px;
 }
+
+.img-yuhu {
+    border-radius: 10px;
+}
+
+.dropdown-hover:hover {
+    background-color: #CD8C82; /* Ganti warna latar belakang saat dihover sesuai kebutuhan */
+    color: #FFFFFF; /* Ganti warna teks saat dihover sesuai kebutuhan */
+}
+
+
+/* .wadah {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
+
+.wadah .isian {
+    width: 350px;
+    height: 300px;
+    background:#CD8C82;
+    border-radius: 10px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+} */

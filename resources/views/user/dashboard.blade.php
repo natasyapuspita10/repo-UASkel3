@@ -20,7 +20,7 @@
                         @forelse($checkouts as $checkout)
                         <tr class="align-middle">
                             <td width="18%">
-                                <img src="{{secure_secure_asset('images/item_bootcamp.png')}}" height="120" alt="">
+                                <img src="{{secure_asset('images/mbloc1.jpg')}}" class="img-yuhu" height="120" alt="">
                             </td>
                             <td>
                                 <p class="mb-2">
@@ -51,8 +51,11 @@
                         </tr>
                         @empty
                         <tr class="align-middle">
-                            <td colspan="5">
+                            <td colspan="5" style="text-align: center;">
                                 <h4>Oops! You don't have any tickets yet...</h4>
+                                <br>
+                                <a href="{{route('welcome')}}" class="btn btn-yuhu" > Let's buy it! </a>
+                                <br><br><br><br><br>
                             </td>
                         </tr>
                         @endforelse

@@ -75,7 +75,7 @@ class CheckoutController extends Controller
             return redirect()->back()->withErrors(['msg' => $ex->getMessage()]);
         }
 
-        return redirect(route('checkout.success'))->with('success', 'Checkout successful.');
+        return redirect(route('checkout.success'))->with('success', 'Checkout Successful.');
     }
 
     public function getSnapRedirect(Checkout $checkout){

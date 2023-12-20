@@ -75,8 +75,9 @@
     <section class="four">
         <div class="container">
             <div class="visit">
-                <h3>Visit Here!</h3>
+                <h1 class="warnaTulisan">Visit Here!</h1>
             </div>
+            <br><br>
             <div class="row align-items-start place">
                 <div class="card col">
                     <div class="place">
@@ -120,7 +121,7 @@
                     <div class="detail-text">
                         <a href="{{url('checkout/seaworld')}}">  selengkapnya
                            <img src="{{secure_asset('images/arrow.png')}}" width="18px"> </a>
-                        <p class="tulisan">Rp9S.000</p>
+                        <p class="tulisan">Rp95.000</p>
                     </div>
                     </div>
                 </div>
@@ -139,8 +140,8 @@
                     </div>
                     </div>
                 </div>
-                
             </div>
+            <br><br><br>
         </div>
     </section>
 
