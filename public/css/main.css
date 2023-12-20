@@ -94,6 +94,49 @@ h1 {
     border-radius: 50%;
 }
 
+/* footer */
+footer {
+    padding-top: 55px;
+    padding-bottom: 10px;
+    background-color:#B16E65 ;
+    color: #E7E5F4; 
+}
+.footer .logo h1{
+    font-size: 55px;
+}
+
+.footer .logo p{
+    font-size: 14px;
+}
+
+.footer img {
+    width: 50px;
+    display: inline-block;
+    align-items: self-end;
+}
+
+
+.footer-kat {
+    list-style: none;
+    text-align: end;
+    font-weight: 780px;
+}
+
+.footer-kat li {
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 00.5rem;
+    min-width: 5rem;
+
+}
+
+.footer-kat p {
+    padding-top: 10px;
+    font-size: 12px;
+    text-align: start;
+}
+
 
 /* dashboard */
 .story {
@@ -386,3 +429,17 @@ button {
     border-radius: 10px;
     box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
 } */
+
+
+/* section 5 */
+.section5 {
+    padding: 75px 0;
+}
+
+.section5 h3 {
+    color: #B16E65;
+}
+
+.why {
+    margin: 15PX;
+}
