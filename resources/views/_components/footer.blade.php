@@ -4,6 +4,7 @@
                 <img src="{{secure_asset('images/hiasan.png')}}">
                 <i>merachy</i>.</h1>
             <p>Ready? Set. Travel!</p>
+            <p>NJS Harum Manis Company</p>
             <hr>
         </div>
         <div class="footer-kat container" id="">

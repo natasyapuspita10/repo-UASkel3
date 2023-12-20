@@ -1,7 +1,7 @@
 @extends('_layouts.app')
 @section('content')
     <section class="login-user">
-        <div class="left">
+        <div class="left wadah">
              <!-- Gambar Di kiri -->
             <img src="{{secure_asset('images/hiasan.png')}}" alt="">
         </div>

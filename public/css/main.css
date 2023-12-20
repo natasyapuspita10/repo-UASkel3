@@ -190,7 +190,8 @@ footer {
 .login-user .right {
     width: 50%;
     float: left;
-    padding: 120px;
+    padding: 117px;
+    background-color: #FFFFFF;
   }
 
   .login-user .right h1 {
@@ -222,7 +223,7 @@ footer {
   }
   
   .login-user .left {
-    background-color: #B16E65;
+    background-color: #FFFFFF;
     width: 50%;
     min-height: 500px;
     text-align: center;
@@ -231,7 +232,8 @@ footer {
   
   .login-user .left img {
     margin-top: 100px;
-    height: 540px;
+    margin-bottom: 100px;
+    height: 400px;
   }
 
   .header-third {
@@ -419,10 +421,10 @@ button {
     align-items: center;
     flex-wrap: wrap;
     gap: 100px 50px;
-    padding: 100px 50px;
-}
+    padding: 10px 50px;
+} */
 
-.wadah .isian {
+/* .wadah .isian {
     width: 350px;
     height: 300px;
     background:#CD8C82;
