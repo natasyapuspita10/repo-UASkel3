@@ -1,7 +1,7 @@
 <footer class="footer">
         <div class="container logo">
             <h1>
-                <img src="./gambar/hiasan.png">
+                <img src="{{secure_asset('images/hiasan.png')}}">
                 <i>merachy</i>.</h1>
             <p>Ready? Set. Travel!</p>
             <hr>
